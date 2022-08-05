@@ -68,8 +68,14 @@ export const MOCK_PROJECTS = [
     isActive: false,
   }),
   new Project({
-    id: 6,
-    name: "Paulo",
-    
-  })
+    id: 7,
+    name: "Arthur - Paulo",
+    description: 
+      "Lorem Ipsum",
+    imageUrl: "/assets/placeimg_500_300_arch1.jpg",
+    contractTypeId: 3,
+    contractSignedOn: "2016-09-23T22:27:25.035Z",
+    budget: 53407,
+    isActive: false,
+  }),
 ];
